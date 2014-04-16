@@ -1,0 +1,60 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+
+
+.img {width:960px; height:480px;}
+h1 {font-family: 'Bowlby One SC', cursive;
+color:black;}
+
+h2 {font-family: 'Roboto', sans-serif; color:#c0c8ce;}
+
+h3{font-family: 'Myriad Pro'; color:#3887d6;}
+
+p {font-family: 'Roboto', regular;}
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1 {background-color:#189e2b;}
+.color-2 {background-color:#3887d6;}
+.color-3 {background-color:#c0c8ce;}
+
+.pattern-1 {background: url("../img/hoffman.png")}
+.pattern-2 {background: url("../img/dot-texture.jpg") repeat-y}
+.pattern-3 {background: url("../img/dimples.jpg") repeat-y}
+
+.color-1,
+.color-2,
+.color-3 {
+	border: 1px solid #fff;
+	float: left;
+	margin: 0 10px;
+height: 100px;
+	width: 100px;
+}
+
+
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #fff;
+	float: left;
+	margin: 0 10px;
+	height: 100px;
+	width: 100px;
+}
+
+a {text-decoration:none;
+	color:#3887d6;
+	}
+	
+a:hover{color:#c0c8ce;}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
